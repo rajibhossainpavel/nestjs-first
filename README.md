@@ -3,6 +3,8 @@ Here we have used a file-based-datasource(db.ts in src folder).
 We have used these class-validator class-transformer libraries for Pipe through the following command-
 [npm i --save class-validator class-transformer]
 
+To get Express Typing we install- npm i --save-dev @types/express.
+
 The API Endpoints(use Postman or any REST checking tools to check it.):
 1. GET students [get all students.]
 2. GET students/:studentId [get a student.]
