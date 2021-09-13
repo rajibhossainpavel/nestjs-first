@@ -1,4 +1,5 @@
 This is an illustration app to check Controller, Service, Module, Middleare, Interceptor and Filter.
+Here we have used a file-based-datasource(db.ts in src folder.).
 
 The API Endpoints(use Postman or any REST checking tools to check it.):
 1. GET students [get all students.]
