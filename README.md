@@ -1,5 +1,7 @@
-This is an illustration app to check Controller, Service, Module, Middleare, Interceptor and Filter.
-Here we have used a file-based-datasource(db.ts in src folder.).
+This is an illustration app to check Controller, Service, Pipe, Module, Middleare, Interceptor and Filter.
+Here we have used a file-based-datasource(db.ts in src folder).
+We have used these class-validator class-transformer libraries for Pipe through the following command-
+[npm i --save class-validator class-transformer]
 
 The API Endpoints(use Postman or any REST checking tools to check it.):
 1. GET students [get all students.]
@@ -20,6 +22,7 @@ STEPS for this SYSTEM:
 6. nest g module moduleName [defaults to moduleName folder.]
 7. nest g middleware middlewareName [does not default to middlewareName folder. therefore we use a folderName, for example, common/req-handler.]
 8. nest g interceptor interceptorName [does not default to interceptorName folder. therefore we use a folderName, for example, common/res-handler.]
-9. nest g filter filterName [does not default  to filterName folder. therefore we use a folderName, for example, common.]
-10. we need to manually create dto folder and its associated classes.
+9. nest g pipe pipeName [does not default  to pipeName folder. therefore we use a folderName, for example, common/req-handler]
+10. nest g filter filterName [does not default  to filterName folder. therefore we use a folderName, for example, common.]
+11. we need to manually create dto folder and its associated classes.
 
