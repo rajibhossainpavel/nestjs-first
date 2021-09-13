@@ -1,7 +1,9 @@
-import { Controller, Get, Param, Post, Put, Body, ParseUUIDPipe, DefaultValuePipe, ValidationPipe} from '@nestjs/common';
+import { Controller, Get, Param, Post, Put, Body, ParseUUIDPipe, DefaultValuePipe, ValidationPipe, UseInterceptors} from '@nestjs/common';
 import {FindStudentResponseDTO, StudentResponseDTO, CreateStudentDTO, UpdateStudentDTO} from './dto/student.dto';
 import {StudentService} from './student/student.service';
+import {StudentInterceptor} from '../common/student.interceptor';
 
+@UseInterceptors(new StudentInterceptor())
 @Controller('students')
 export class StudentController {
     constructor(private readonly studentService:StudentService){}
@@ -9,6 +11,7 @@ export class StudentController {
     getStudents(): FindStudentResponseDTO[]{
         return this.studentService.getStudents();
     }
+    
     @Get('/:studentId')
     getStudentById(
         @Param('studentId', new DefaultValuePipe(false), new ParseUUIDPipe()) studentId: string
