@@ -24,6 +24,6 @@ STEPS for this SYSTEM:
 8. nest g middleware middlewareName [does not default to middlewareName folder. therefore we use a folderName, for example, common/req-handler.]
 9. nest g interceptor interceptorName [does not default to interceptorName folder. therefore we use a folderName, for example, common/res-handler.]
 10. nest g filter filterName [does not default  to filterName folder. therefore we use a folderName, for example, common.]
-10. nest g decorator decoratorName [does not default  to decoratorName folder. therefore we use a folderName, for example, common.]
-11. we need to manually create dto folder and its associated classes.
+11. nest g decorator decoratorName [does not default  to decoratorName folder. therefore we use a folderName, for example, common.]
+12. we need to manually create dto folder and its associated classes.
 
