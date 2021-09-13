@@ -28,5 +28,5 @@ STEPS for this SYSTEM:
 10. nest g filter filterName [does not default  to filterName folder. therefore we use a folderName, for example, common.]
 11. nest g decorator decoratorName [does not default  to decoratorName folder. therefore we use a folderName, for example, common.]
 12. nest g guard guardName [does not default  to guardName folder. therefore we use a folderName, for example, common.]
-13. we need to manually create dto folder and its associated classes.
+13. nest g class common/className [does not default  to className folder. therefore we use a folderName, for example, common.]
 
