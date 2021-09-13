@@ -20,9 +20,9 @@ STEPS for this SYSTEM:
 4. nest g controller controllerName [defaults to controllerName folder.]
 5. nest g service serviceName [defaults to serviceName folder.]
 6. nest g module moduleName [defaults to moduleName folder.]
-7. nest g middleware middlewareName [does not default to middlewareName folder. therefore we use a folderName, for example, common/req-handler.]
-8. nest g interceptor interceptorName [does not default to interceptorName folder. therefore we use a folderName, for example, common/res-handler.]
-9. nest g pipe pipeName [does not default  to pipeName folder. therefore we use a folderName, for example, common/req-handler]
+7. nest g pipe pipeName [does not default  to pipeName folder. therefore we use a folderName, for example, common/req-handler]
+8. nest g middleware middlewareName [does not default to middlewareName folder. therefore we use a folderName, for example, common/req-handler.]
+9. nest g interceptor interceptorName [does not default to interceptorName folder. therefore we use a folderName, for example, common/res-handler.]
 10. nest g filter filterName [does not default  to filterName folder. therefore we use a folderName, for example, common.]
 11. we need to manually create dto folder and its associated classes.
 
