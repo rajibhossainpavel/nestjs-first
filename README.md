@@ -14,7 +14,7 @@ The API Endpoints(use Postman or any REST checking tools to check it.):
 8. PUT teachers/:teacherId/students/:studentId [change a teacherId(teacher) for a given studentId]
 
 STEPS for this SYSTEM:
-1. npm install @nestjs/cli
+1. npm i -g @nestjs/cli
 2. nest new projectName
 3. cd project-name
 4. nest g controller controllerName [defaults to controllerName folder.]
@@ -25,5 +25,6 @@ STEPS for this SYSTEM:
 9. nest g interceptor interceptorName [does not default to interceptorName folder. therefore we use a folderName, for example, common/res-handler.]
 10. nest g filter filterName [does not default  to filterName folder. therefore we use a folderName, for example, common.]
 11. nest g decorator decoratorName [does not default  to decoratorName folder. therefore we use a folderName, for example, common.]
+12. nest g guard guardName [does not default  to guardName folder. therefore we use a folderName, for example, common.]
 12. we need to manually create dto folder and its associated classes.
 
