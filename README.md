@@ -1,4 +1,4 @@
-This is an illustration app to check Controller, Service, Pipe, Module, Middleare, Interceptor and Filter.
+This is an illustration app to check Controller, Service, Module, Pipe, Middleare, Interceptor and Filter.
 Here we have used a file-based-datasource(db.ts in src folder).
 We have used these class-validator class-transformer libraries for Pipe through the following command-
 [npm i --save class-validator class-transformer]
